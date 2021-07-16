@@ -2,14 +2,14 @@ from distutils.core import setup
 setup(
   name = 'payDex',         
   packages = ['payDex'],   
-  version = '0.1',      
+  version = '1.0',      
   license='MIT',        
   description = 'pay Dex, paiement in cameroun base on payUnit',   
   author = 'fredex',                   
   author_email = 'freddyviany@gmail.com',      
-  url = 'https://github.com/freddy-viany/payDex',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
-  keywords = ['SOME', 'MEANINGFULL', 'KEYWORDS'],   # Keywords that define your package best
+  url = 'https://github.com/freddy-viany/payDex',   
+  download_url = 'https://github.com/freddy-viany/payDex/archive/refs/tags/v1.0.tar.gz',    
+  keywords = ['payDex', 'PAIEMENT', 'CAMEROUN', 'DJANGO'],   
   install_requires=[            # I get to this in a second   
           'requests',
           'uuid',
